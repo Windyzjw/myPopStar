@@ -47,8 +47,10 @@
 #endif
 }
 
+
+//设置不可旋转
 - (BOOL) shouldAutorotate {
-    return YES;
+    return NO;
 }
 
 - (void)didReceiveMemoryWarning {
